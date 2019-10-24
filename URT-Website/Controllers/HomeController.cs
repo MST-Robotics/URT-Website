@@ -28,5 +28,29 @@ namespace URT_Website.Controllers
 
             return View();
         }
+
+        public ActionResult History()
+        {
+            ViewBag.Message = "History page.";
+            return View();
+        }
+
+        public ActionResult Blog()
+        {
+            ViewBag.Message = "Blog page.";
+            return View();
+        }
+
+        public ActionResult Sponsors()
+        {
+            ViewBag.Message = "Sponsors page.";
+            return View();
+        }
+
+        public ActionResult Resources()
+        {
+            ViewBag.Message = "Resources page.";
+            return View();
+        }
     }
 }
