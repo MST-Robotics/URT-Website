@@ -15,11 +15,11 @@ body {
 /* #endregion */
 
 .navbar-brand {
-    background: url(../Images/urtLogo.png) no-repeat top left;
-    display: block;
-    object-fit:contain;
-    height: 150px;
-    width: 150px;
+    background: url(../Images/logo_black.svg) no-repeat top left;
+    /*display: block;*/
+    height: 80px;
+    width: 80px;
+    object-fit: contain;
     text-indent: -9999px; /* hides the link text */
 }
 
