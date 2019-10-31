@@ -1,111 +1,84 @@
 ﻿@{
     ViewBag.Title = "Home Page";
 }
+<section class="jumbotron text-center">
+    <div class="container">
+        <h1 class="jumbotron-heading">@ViewBag.Title.</h1>
+        <p class="lead-text text-muted">@ViewBag.Message</p>
+    </div>
+</section>
 
-@section featured {
-    <div class="featured">
-        <div class="jumbotron">
-            <h1>Underwater Robotics</h1>
-            <p class="lead text-muted">We are a Missouri S&T Design Team</p>
-            
+<div class="row mb-3">
+    <div class="col-md mt-3 mb-3">
+        <div class="k-card">
+            <div class="k-card-header">
+                Card Header
+            </div>
+            <div class="k-card-body">
+                <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+            <div class="k-card-actions">
+                <span class="k-button k-flat k-primary">Action 1</span>
+                <span class="k-button k-flat k-primary">Action 2</span>
+            </div>
         </div>
     </div>
-}
-
-
-<br />
-<ul id="panelbar">
-    <li class="k-state-active">
-        <span class="k-link k-state-selected">About Us</span>
-        <div style="padding: 10px;">
-            <p style="padding:0 1em">
-                To put it simply, we build robots!  Ones that are made to drive underwater.  In
-                addition, as a student design team, we give our members experience working in
-                teams to solve real-world design problems – skills that carry over to any
-                profession.  Joining a student design team is probably one of the most important
-                things you can do as a student here at Missouri S&T (and it doesn’t even have
-                to be ours).  Solving  real engineering problems, puzzles, and conundrums on
-                design teams is a lot more tangible than any lecture can be.  If you have done
-                robotics (such as FIRST) before, you can think of our team as a kind of graduate
-                school where you can continue to work in the world of robotics more independently.
-                If you haven’t, you can come to learn and explore this diverse field.  Our team
-                welcomes students of all majors, from arts to mathematics to mechanical
-                engineering.  Is playing with circuits, wires, code, or power tools not your
-                thing?  That’s not a problem – there are other ways to be creative.  In addition
-                to engineers, we need people to manage the business side of our team, help
-                promote awareness of the amazing world of STEM (Science, Technology, Engineering,
-                and Math) in the local area, and look at the big picture.  People who have never
-                done anything robotics-related before are more than welcome to come to our
-                meetings and see what role might be a good fit!
-                <br />
-                <br />
-                Other Perks:
-                <ul style="list-style-type:disc;">
-                    <li> Access to the Student Design and Experiential Learning Center</li>
-                    <li> Experience with industry-standard design tools and software packages</li>
-                    <li> Leadership experience (that looks great on resumes)</li>
-                    <li> Cool toys</li>
-                    <li> Access to 3D printers</li>
-                </ul>
-</p>
+    <div class="col-md mt-3 mb-3">
+        <div class="k-card">
+            <div class="k-card-header">
+                Card Header
+            </div>
+            <div class="k-card-body">
+                <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+            <div class="k-card-actions">
+                <span class="k-button k-flat k-primary">Action 1</span>
+                <span class="k-button k-flat k-primary">Action 2</span>
+            </div>
         </div>
-    </li>
-    <li>
-        Competitions
-        <div>
-            <p style="padding:0 1em">
-                The S&T Underwater Robotics Competition Team competes in the annual Marine
-                Advanced Technology Education Remotely Operated Underwater Vehicle (MATE ROV)
-                competition. Our team builds a robot from scratch that must navigate through an
-                underwater course that simulates solving problems commonly found in port cities.
-                This international competition hosts teams from K-12, Collegiate and Professional,
-                and includes a presentation component that implores the team to act like a company
-                presenting to a marketing board.
-                <br />
-                <br />
-                We are eagerly awaiting MATE to release their 2020 Competition Manual so we can
-                being working on more specified parts!
-            </p>
+    </div>
+    <div class="col-md mt-3 mb-3">
+        <div class="k-card">
+            <div class="k-card-header">
+                Card Header
+            </div>
+            <div class="k-card-body">
+                <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+            <div class="k-card-actions">
+                <span class="k-button k-flat k-primary">Action 1</span>
+                <span class="k-button k-flat k-primary">Action 2</span>
+            </div>
         </div>
-    </li>
-    <li>
-        Structure
-        <div>
-            <p style="padding:0 1em">
-                Our team is divided into four divisions:
-                <ul style="list-style-type:disc;">
-                    <li> Mechanical Division– responsible for designing/building/maintaining the body, structure and physical mechanisms of the robot such as driving, buoyancy mechanisms, and waterproofing.</li>
-                    <li> Electrical Division– responsible for designing/building/maintaining the electrical systems of the robot such as circuits, batteries, and motors.</li>
-                    <li>Computing Division– responsible for designing/building/maintaining the robot’s control systems, the code that runs the robot, and specified tasks from MATE like AI and Image Recognition.</li>
-                    <li>Public Relations Team– responsible for public outreach and education, building relationships with sponsors, organizing team events, and maintaining the team’s website among other things.</li>
-                </ul>
-                <br />
-                Each division has their own Division Lead and may be further divided into sub-groups based on particular projects/interests.
-            </p>
-        </div>
-    </li>
-    <li>
-        People
-        <div>
-            <p style="padding:0 1em">
-                Chief Executive Officer:  Caleb Jett <br />
-                Chief Technical Officer: Ben Wilt <br />
-                Chief Operational Officer:  Sean Martin<br />
-                Chief Financial Officer: Caleb Jett<br />
-                <br />
-                Competition Lead:  Jack Kufa<br />
-                Computing Lead: Tamara Spivey<br />
-                Electrical Lead: Cameron Knapp<br />
-                Mechanical Lead: Cody Pepple<br />
-                <br />
-                Faculty Advisor:  Dr. Donald C. Wunsch<br />
-                Technical Advisors: Dr. Kurt Kosbar and Dr. Jiangfan Zhang<br />
-            </p>
+    </div>
 </div>
-    </li>
-</ul>
+
+<div>
+    <h4 class="font-weight-normal">Kendo UI TreeView</h4>
+    <p>
+        Use this area to provide additional information.
+    </p>
+    <ul id="links-treeview">
+        <li>
+            <div>
+                <a class="k-link k-in" href="/Home">Home</a>
+            </div>
+        </li>
+        <li>
+            <div>
+                <a class="k-link k-in" href="/Home/About">About</a>
+            </div>
+        </li>
+        <li>
+            <div>
+                <a class="k-link k-in" href="/Home/Contact">Contact</a>
+            </div>
+        </li>
+    </ul>
+</div>
+
 <script>
     $(function () {
-        $("#panelbar").kendoPanelBar();
+        $("#links-treeview").kendoTreeView();
     });
 </script>

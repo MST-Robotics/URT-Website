@@ -551,6 +551,7 @@
     <Content Include="Content\kendo\2019.3.1023\images\kendoui.ttf" />
     <Content Include="Content\kendo\2019.3.1023\images\kendoui.woff" />
     <None Include="packages.config" />
+    <Content Include="Images\sponsors.png" />
     <Content Include="Images\URTlogo.png" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
