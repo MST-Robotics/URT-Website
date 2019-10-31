@@ -6,6 +6,8 @@ html {
 
 body {
     margin-bottom: 80px;
+    background: rgb(3,3,57);
+    background: linear-gradient(0deg, rgba(3,3,57,1) 0%, rgba(0,0,170,1) 25%, rgba(23,178,231,1) 100%);
 }
 
 /* #region Navbar styles */
@@ -15,11 +17,8 @@ body {
 /* #endregion */
 
 .navbar-brand {
-    background: url(../Images/logo_black.svg) no-repeat top left;
-    /*display: block;*/
-    height: 80px;
-    width: 80px;
-    object-fit: contain;
+    background: url(../Images/urt_header.svg) no-repeat top center;
+    width: 100%;
     text-indent: -9999px; /* hides the link text */
 }
 

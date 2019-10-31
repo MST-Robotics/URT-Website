@@ -108,6 +108,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\all.css" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
     <Content Include="Content\bootstrap-reboot.css" />
@@ -551,8 +552,11 @@
     <Content Include="Content\kendo\2019.3.1023\fonts\glyphs\WebComponentsIcons.woff" />
     <Content Include="Content\kendo\2019.3.1023\images\kendoui.ttf" />
     <Content Include="Content\kendo\2019.3.1023\images\kendoui.woff" />
+    <Content Include="Content\variables.scss" />
     <None Include="packages.config" />
+    <Content Include="Images\logo_black.svg" />
     <Content Include="Images\URTlogo.png" />
+    <Content Include="Images\urt_header.svg" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.js" />
