@@ -6,8 +6,8 @@ html {
 
 body {
     margin-bottom: 80px;
-    background: rgb(2,0,36);
-    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(2,2,120,1) 15%, rgba(2,134,184,1) 100%);
+    background: rgb(0,61,114);
+    background: linear-gradient(0deg, rgba(0,61,114,1) 5%, rgba(0,173,216,1) 100%);
 }
 
 /* #region Navbar styles */
